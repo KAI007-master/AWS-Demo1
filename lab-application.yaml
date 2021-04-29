@@ -68,7 +68,7 @@ Resources:
           DeleteOnTermination: true
           SubnetId:
             Fn::ImportValue:
-              !Sub ${NetworkStackName}-SubnetID
+              'Demo1-SubnetID'
       Tags:
         - Key: Name
           Value: Web Server
@@ -106,8 +106,7 @@ Resources:
     Properties:
       GroupDescription: Enable HTTP ingress
       VpcId:
-        Fn::ImportValue:
-          !Sub ${NetworkStackName}-VPCID
+        Fn::ImportValue: Demo1-VPC
       SecurityGroupIngress:
         - IpProtocol: tcp
           FromPort: 80
