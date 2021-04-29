@@ -105,7 +105,7 @@ Resources:
     Properties:
       GroupDescription: Enable HTTP ingress
       VpcId:
-        Fn::ImportValue: Demo1-VPC
+        Fn::ImportValue: Demo1-VPCID
       SecurityGroupIngress:
         - IpProtocol: tcp
           FromPort: 80
