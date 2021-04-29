@@ -67,8 +67,7 @@ Resources:
           DeviceIndex: 0
           DeleteOnTermination: true
           SubnetId:
-            Fn::ImportValue:
-              'Demo1-SubnetID'
+            Fn::ImportValue: Demo1-SubnetID
       Tags:
         - Key: Name
           Value: Web Server
