@@ -47,7 +47,7 @@ Resources:
           files:
             /var/www/html/index.html:
               content: |
-                <img src="https://cf-templates-vaq1v1k7eczc-us-west-2.s3-us-west-2.amazonaws.com/poza_1.png" alt="AWS Demo 1"/>
+                <img src="poza_1.png" alt="AWS Demo 1"/>
                 <h1>Congratulations, you have successfully launched the AWS Demo 1 Deployment.</h1>
               mode: 000644
               owner: apache
