@@ -1,4 +1,4 @@
-1AWSTemplateFormatVersion: 2010-09-09
+AWSTemplateFormatVersion: 2010-09-09
 Description: >-
   Network Template: Sample template that creates a VPC with DNS and public IPs enabled.
 
