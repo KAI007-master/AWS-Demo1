@@ -47,8 +47,7 @@ Resources:
           files:
             /var/www/html/index.html:
               content: |
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif" alt="AWS Demo 1"/>
-                <h1>Congratulations, you have successfully launched the AWS Demo 1 Deployment.</h1>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Digital_rain_animation_big_letters_shine.gif" alt="Demo1 on AWS" width="500" height="600">
               mode: 000644
               owner: apache
               group: apache
