@@ -48,6 +48,7 @@ Resources:
             /var/www/html/index.html:
               content: |
                 <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Digital_rain_animation_big_letters_shine.gif" alt="Demo1 on AWS" width="500" height="600">
+                <h1> Demo1 AWS Pipeline </p>
               mode: 000644
               owner: apache
               group: apache
