@@ -9,7 +9,7 @@ Description: >-
 #   Public Subnet
 
 ######################
-# Resources section.
+# Resources section
 ######################
 
 Resources:
