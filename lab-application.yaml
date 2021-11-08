@@ -115,7 +115,7 @@ Resources:
           Value: Web Server Security Group
 
 ######################
-# Outputs section
+# Outputs sections
 ######################
 
 Outputs:
